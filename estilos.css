@@ -6,6 +6,9 @@ header{
   align-items: center;
   padding: 10px;  
 }
+#tresrayas{
+  display: none;
+}
 .logo{
   display: flex;
   align-items: center;
@@ -16,18 +19,18 @@ header{
 }
 body{
   font-family: sans-serif;
-  background-color: grey;
+  background-color: whitesmoke;
   margin: 0%;
 }
 a{
   text-decoration: none;
   color: white;
 }
-nav a{
+div a{
   font-weight: 600;
   padding-right: 20px;
 }
-nav a:hover{
+div a:hover{
   color: red 
 }
 @media (max-width: 780px)
@@ -38,4 +41,17 @@ nav a:hover{
   nav{
     padding: 10px 0px
   }
+}
+@media (max-width: 485px){
+  div a{
+    display: none;
+  }
+  #tresrayas{
+    display: flex;
+  }
+  #tresrayas:hover{
+    color:red
+  }
+  
+
 }
