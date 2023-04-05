@@ -1,0 +1,59 @@
+header{
+    display: flex;
+    min-height: 70px;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;  
+  }
+  #tresrayas{
+    display: none;
+  }
+  .logo{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin: auto;
+  }
+  #titulo_logo {
+    color:white;
+  }
+  body{
+    font-family: sans-serif;
+    background-color: whitesmoke;
+    margin: 0%;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  div a{
+    font-weight: 600;
+    padding-right: 20px;
+  }
+  div a:hover{
+    color: red 
+  }
+  a.logo{
+    align-items: center;
+  }
+  @media (max-width: 780px)
+  {
+    header{
+      flex-direction: column;
+    }
+    nav{
+      padding: 10px 0px
+    }
+  }
+  @media (max-width: 485px){
+    div a{
+      display: none;
+    }
+    #tresrayas{
+      display: flex;
+    }
+    #tresrayas:hover{
+      color:red
+    }
+}
