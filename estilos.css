@@ -22,15 +22,14 @@ body{
   background-color: whitesmoke;
   margin: 0%;
 }
-a{
+.nav-link{
   text-decoration: none;
   color: white;
-}
-div a{
   font-weight: 600;
   padding-right: 20px;
 }
-div a:hover{
+
+.nav-link:hover{
   color: red 
 }
 @media (max-width: 780px)
@@ -43,7 +42,7 @@ div a:hover{
   }
 }
 @media (max-width: 485px){
-  div a{
+  .nav-link{
     display: none;
   }
   #tresrayas{
@@ -53,38 +52,5 @@ div a:hover{
     color:red
   }
   
-
-}
-.slider{
-  width: 95%;
-  margin: auto;
-  overflow: hidden;
-}
-.slider ul{
-  display: flex;
-  padding: 0;
-  width: 400px;
-
-  animation: cambio 20s infinite;
-}
-.slider li{
-  width: 100%;
-  list-style: none;
-}
-.slider img{
-  width: 100%;
-}
-@keyframes cambio {
-  0% {margin-left: 0;}
-  20% {margin-left: 0;}
- 
-  25% {margin-left: -100;}
-  45% {margin-left: -100;}
- 
-  50% {margin-left: -200;}
-  70% {margin-left: -200;}
- 
-  75% {margin-left: -300;}
-  100% {margin-left: -300;}
 
 }
