@@ -1,44 +1,90 @@
-header{
+body{
+  display: ;
+}
+
+.encabezado{
   display: flex;
   min-height: 70px;
   background-color: black;
-  justify-content: space-between;
   align-items: center;
-  padding: 10px;  
+  padding: 10px;
+  justify-content: space-between;
 }
-#tresrayas{
-  display: none;
+.logotipo{
+  display: flex;
 }
+
 .logo{
   display: flex;
   align-items: center;
   text-decoration: none;
+
 }
-#titulo_logo {
+.titulo_logo {
+  font-family: sans-serif;
   color:white;
+  font-weight: 700;
+  padding-top: 1vb;
 }
 body{
   font-family: sans-serif;
-  background-color: whitesmoke;
+  background-color: gray
+  ;
   margin: 0%;
 }
-.nav-link{
-  text-decoration: none;
-  color: white;
+:hover menu{
+  background-color: blue;
+}
+.menu{
+  display: flex;
   font-weight: 600;
-  padding-right: 20px;
+  font-family: sans-serif;
+  color:white;
+  background-color: black;
+  padding: 10px;
+  justify-content: space-between;
+}
+.nav-link{
+  background-color: black;
+  color: white;
+}
+.carousel-inner{
+  border: 7px solid black;
+  margin: px;
+  display: flex;
+  background-color: black;
+}
+.carousel-inner{
+ 
+
+}
+.maquina{
+  flex-basis: 33%;
+  border:5px solid black;
+  margin: ;
+  padding: 10vh;
+  background-image: url(https://png.pngtree.com/png-clipart/20190826/ourmid/pngtree-pattern-design-png-image_1540344.jpg)
+
+}
+.cuerpo1{
+  background-color: black;
+}
+.img{
+  flex-basis: 33%;
 }
 
-.nav-link:hover{
-  color: red 
-}
-@media (max-width: 780px)
+@media (max-width: 480px)
 {
   header{
     flex-direction: column;
   }
   nav{
     padding: 10px 0px
+  }
+ 
+  .menutresrayas{
+    display:inline
+
   }
 }
 @media (max-width: 485px){
@@ -52,5 +98,8 @@ body{
     color:red
   }
   
+  
 
 }
+
+
