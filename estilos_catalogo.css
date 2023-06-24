@@ -55,7 +55,7 @@
   border: 1px solid #ccc;
   position: relative;
   display: flex;
-  flex-direction: column;
+  flex-direction:column
   justify-content: center;
   overflow: hidden;
 }
@@ -137,6 +137,18 @@
 }
 .mostrador2{
 display: none;
+}
+.mensajeOculto {
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: grey;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: none;
 }
 
 @media(max-width: 730px){

@@ -5,12 +5,14 @@ let modeloSeleccionado = document.getElementById("modelo");
 let descripSeleccionada = document.getElementById("descripcion");
 let precioSeleccionado = document.getElementById("precio");
 
+
+
 function cargar(item){
     quitarBordes();
     mostrador.style.width = "60%";
     seleccion.style.width = "40%";
     seleccion.style.opacity = "1";
-    item.style.border = "2px solid red";
+    
 
     imgSeleccionada.src = item.getElementsByTagName("img")[0].src;
 
@@ -34,3 +36,11 @@ function quitarBordes(){
         items[i].style.border = "none";
     }
 }
+
+function mostrarMensaje() {
+    const mensajeFlotante = document.getElementById('mensajeFlotante');
+    mensajeFlotante.style.display = 'block';
+    setTimeout(function() {
+      mensajeFlotante.style.display = 'none';
+    }, 4000);
+  }
