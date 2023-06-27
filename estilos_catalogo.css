@@ -100,7 +100,7 @@
   margin-bottom: 10px;
 }
 .info .fila select{
-  width: 100px;
+  width: 70px;
   font-size: 18px;
   padding: 6px;
   margin-right: 30px;
@@ -138,6 +138,9 @@
 .mostrador2{
 display: none;
 }
+.retablet{
+  display: none;
+}
 .mensajeOculto {
   position: fixed;
   top: 30%;
@@ -151,7 +154,29 @@ display: none;
   display: none;
 }
 
-@media(max-width: 730px){
+@media(max-width: 780px){
   .boton{
     font-size: 12px;
   }
+  .retablet{
+    display: flex;
+  }
+ .re_normal{
+  display: none;
+ }
+ .info{
+  padding: 10px;
+
+ }
+  header{
+    flex-direction: column;
+  }
+  nav{
+    padding: 10px 0px
+  }
+ 
+  .menutresrayas{
+    display:inline
+
+}
+}
